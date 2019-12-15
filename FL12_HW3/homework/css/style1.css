@@ -1,0 +1,166 @@
+body {
+  background-color: white;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0; }
+
+.landing-logo p, .landing-logo span {
+  font-family: sans-serif;
+  opacity: 0.9;
+  color: rgba(0, 0, 0, 0.7); }
+
+header {
+  margin-top: 0;
+  padding-top: 20px;
+  background-image: url(../img/m-h-day.jpg);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  border-bottom-right-radius: 30%; }
+
+.header-wrap {
+  margin-left: 10%; }
+
+.landing-logo {
+  display: flex;
+  width: 30px;
+  height: 45px; }
+
+.landing-logo p {
+  margin-top: 0px;
+  font-weight: 0;
+  display: block;
+  margin-left: 10px;
+  font-size: 30px; }
+
+.landing-logo span {
+  display: block;
+  margin-left: 10px;
+  font-weight: 10px;
+  font-size: 10px; }
+
+.header_heading {
+  font-family: sans-serif;
+  opacity: 0.9;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 30px;
+  font-size: 45px;
+  width: 30%; }
+
+.header_text {
+  width: 50%;
+  opacity: 0.9;
+  margin-bottom: 110px;
+  color: rgba(0, 0, 0, 0.7); }
+
+button {
+  background-color: #5da500;
+  border: none;
+  width: 100px;
+  height: 45px;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold; }
+
+.login {
+  color: white;
+  font-family: sans-serif;
+  margin-left: 150px; }
+
+.section .section_text {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  opacity: 0.9; }
+.section .section_card {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  color: white;
+  display: flex; }
+.section .section_card_heading {
+  font-weight: bold;
+  font-family: sans-serif; }
+.section .section_card_text {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  opacity: 0.6;
+  font-family: sans-serif;
+  font-size: 77%; }
+.section a {
+  color: white;
+  font-family: sans-serif;
+  opacity: 0.6; }
+.section .section_banner {
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  border-radius: 5px;
+  height: 10%;
+  margin-left: 18%;
+  margin-right: 18%;
+  z-index: 1;
+  background: linear-gradient(90grad, #5da500, #0079c4); }
+  .section .section_banner .section_banner_text_wrap {
+    width: 50%; }
+  .section .section_banner .section_banner_heading {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    opacity: 0.9;
+    margin-left: 20%;
+    color: rgba(0, 0, 0, 0.7); }
+  .section .section_banner .section_banner_text {
+    color: white;
+    display: flex;
+    margin-left: 20%;
+    opacity: 0.9;
+    font-family: sans-serif;
+    font-size: 80%; }
+  .section .section_banner .section_banner_button {
+    display: flex;
+    font-family: sans-serif;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding-left: 3%; }
+
+Footer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: -3%;
+  width: 100%;
+  height: 25%;
+  z-index: 0; }
+  Footer .footer-wrap {
+    display: flex;
+    margin-top: 5%;
+    font-family: sans-serif;
+    color: white;
+    opacity: 0.8; }
+    Footer .footer-wrap .footer_logo.landing-logo {
+      color: white;
+      margin-top: 1%;
+      margin-left: 10%; }
+      Footer .footer-wrap .footer_logo.landing-logo p {
+        font-size: 20px;
+        color: white;
+        opacity: 0.9; }
+    Footer .footer-wrap .footer_text {
+      margin-left: 30%;
+      width: 20%;
+      font-size: 80%; }
+    Footer .footer-wrap .footer-cr {
+      margin-left: 15%;
+      margin-top: 2%; }
