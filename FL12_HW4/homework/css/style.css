@@ -1,6 +1,5 @@
 body{
     width: 100%;
-    height: 90%;
     font-family: serif;
     margin: 0px;
     padding: 0px;
@@ -19,16 +18,17 @@ body{
 
 }
 
-.head_list ul {
+.head_button li {
     display: inline;
+    margin-right: 1em;
     
 }
 .head_button{
     float: right;
     padding-right: 5vw;
-    padding-top: 2em;
+    padding-top: 1em;
 }
-.head_list :hover {
+.head_button :hover {
 color: #bfba55;
 }
 
