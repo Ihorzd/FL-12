@@ -1,0 +1,137 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+
+
+.post-1 {
+	background: #9d27b0;
+}
+.post-2 {
+	background: #9bb800;
+}
+.post-3 {
+	background: #ed5120;
+}
+.post-4 {
+	background: #9d27b0;
+}
+.post-5 {
+	background: #2d95bb;
+}
+
+/* Your styles go here */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  color: white;
+  background-color: #0b192f;
+}
+.main_Cont{
+display: grid;
+padding-left: 0.5em;
+padding-right: 0.5em;
+grid-template-rows:auto auto auto auto;
+grid-template-areas: 
+"head"
+"headfoto"
+"main"
+"footer"
+}
+.main_header{
+display: grid;
+grid-template-columns: 20% 80%;
+grid-area: head;
+justify-items: end;
+background-color: #024161;
+}
+
+.menu
+{
+  justify-self: end;
+  padding-right: 10vw;
+height: 100%;
+
+}
+.button{
+border: none;
+background: none;
+color: white;
+height: 100%;
+}
+.button:hover{
+  background-color: #1f52a4;
+}
+.main_header h2{
+  color: white;
+  font-weight: lighter;
+  padding-left: 1em;
+}
+.main_header span{
+  color: #9d27b0;
+  font-weight: lighter;
+}
+.information img{
+width: 100%;
+position: relative;
+}
+.information{
+  display:grid;
+
+  grid-area: headfoto; 
+  margin-top: 4vh;
+  grid-template-columns: 96.5vw;
+  padding-right: 1em;
+}
+.imgfirst{
+  position	: relative;
+	width		: 100%;
+}
+.information h1{
+  position	: absolute;
+	top		: 50%;
+	left		: 5%;
+  width		: 100%;
+  color: white;
+  font-weight: lighter;
+}
+.information p{
+  position	: absolute;
+	top		: 65%;
+	left		: 5%;
+  width		: 100%;
+  color: white;
+  font-weight: lighter;
+}
+.article{
+  display: grid;
+  margin-top: 3em;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "cont_with_img" "news";
+  gap:2vw;
+  margin-left: 0.5em;
+}
+.with_img{
+  display: grid;
+  background-color: red;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.with_img img{
+  align-self: stretch;
+  width: 50%;
+}
+.text_noimg{
+  background-color: #9d27b0;
+  height: 50vh;
+  padding-left: 1vh;
+}
+.text_noimg h2{
+  font-size: 4em;
+  font-weight: lighter;
+}
